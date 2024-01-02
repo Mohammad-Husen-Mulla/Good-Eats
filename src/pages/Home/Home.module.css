@@ -1,0 +1,10 @@
+.hero-section {
+  color: var(--FFFFFF, #fff);
+}
+.hero-section__text-container h1 {
+  font-family: Rufina;
+  font-size: 14.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15.2rem;
+}
