@@ -62,3 +62,16 @@
   bottom: -241px;
   left: 330px;
 }
+
+.hero-recipe-plate__container {
+  display: flex;
+  gap: 4.4rem;
+  position: absolute;
+  top: 138rem;
+  right: 42rem;
+}
+.hero-recipe-plate__container img {
+  height: 20rem;
+  width: 24rem;
+  border-radius: 50%;
+}
