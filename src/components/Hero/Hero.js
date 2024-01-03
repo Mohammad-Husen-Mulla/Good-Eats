@@ -6,7 +6,7 @@ const Hero = () => {
       <p className={style['hero-text__main']}>Healthy Eating
         is important
         part of lifestyle</p>
-      <p className={style['hero-text__description']}>Best Restaurant in the town..!</p>
+      <p className={style['hero-text__description']}>We use the freshest ingredients in preparing our food to provide the best quality and taste. Try our delicious food today! </p>
     </div>
     <div className={style['hero-main-image__container']}>
       <img src={hero} alt="burger" />

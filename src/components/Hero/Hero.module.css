@@ -18,6 +18,7 @@
 }
 
 .hero-text__description {
+  width: 565px;
   color: var(--FFFFFF, #fff);
   font-feature-settings: "clig" off, "liga" off;
   /* Body */
