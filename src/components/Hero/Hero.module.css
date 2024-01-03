@@ -37,3 +37,27 @@
   bottom: 1390px;
   z-index: -1;
 }
+
+.hero-scroll__container p {
+  color: var(--FFFFFF, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading 4 */
+  font-family: Rufina;
+  font-size: 48px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+.hero-scroll__container {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 934px;
+  bottom: 140px;
+}
+.hero-scroll__container svg {
+  display: block;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: -241px;
+  left: 330px;
+}
