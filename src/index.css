@@ -2,6 +2,7 @@ body {
   color: var(--000000, #000);
   background-color: #233000;
   font-feature-settings: "clig" off, "liga" off;
+  position: relative;
 }
 
 code {
@@ -14,5 +15,5 @@ code {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 49%;
 }

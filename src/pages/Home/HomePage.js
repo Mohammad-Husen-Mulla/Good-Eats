@@ -1,15 +1,13 @@
-import style from './Home.module.css';
+import { Fragment } from 'react';
+import Hero from '../../components/Hero/Hero';
+import NavBar from '../../components/Nav/NavBar';
 
 const HomePage = () => {
-  return <section className={style["hero-section"]}>
-    <div className={style["hero-section__text-container"]}>
-      <h1>
-        Healthy Eating
-        is important
-        part of lifestyle
-      </h1>
-    </div>
-  </section>
+  return <Fragment>
+    <NavBar />
+    <Hero />
+  </Fragment>
+
 };
 
 export default HomePage;
