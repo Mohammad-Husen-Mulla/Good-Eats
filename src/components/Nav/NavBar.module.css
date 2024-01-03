@@ -1,5 +1,44 @@
 .nav-section {
-  width: 1920px;
-  height: 208px;
+  height: 20.8rem;
   flex-shrink: 0;
+  color: #fff;
+}
+
+.nav-logo-menu-container {
+  display: flex;
+  align-items: center;
+  padding-top: 4.6rem;
+  padding-bottom: 4.6rem;
+  padding-left: 11.8rem;
+  justify-content: space-between;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.nav-bar__right {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+  margin-right: 13.8rem;
+}
+
+.nav-bar__left {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.nav-logo__name-plate {
+  font-size: 6.4rem;
+}
+
+.nav-bar__contact {
+  font-size: 2.6rem;
+}
+.nav-bar__reservation-btn {
+  background-color: transparent;
+  padding: 2rem 4.6rem;
+  font-size: 3.2rem;
+  color: #fff;
+  border-color: #fff;
 }
