@@ -1,0 +1,39 @@
+.hero-section {
+  color: #ffff;
+  margin-top: 10.2rem;
+}
+
+.hero-text__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 800px;
+  height: 575px;
+  font-weight: 700;
+}
+
+.hero-text__main {
+  font-family: Rufina;
+  font-size: 14.8rem;
+}
+
+.hero-text__description {
+  color: var(--FFFFFF, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.48px;
+}
+
+.hero-main-image__container img {
+  height: 850px;
+  position: absolute;
+  top: 350px;
+  right: 138px;
+  bottom: 1390px;
+  z-index: -1;
+}
